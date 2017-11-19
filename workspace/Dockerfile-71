@@ -30,6 +30,17 @@ RUN rm /var/log/lastlog /var/log/faillog
 # base image (https://github.com/Laradock/workspace).
 #
 
+ARG GH_TOKEN
+ARG ENVIRONMENT=development
+
+ENV GH_TOKEN=${GH_TOKEN}
+ENV ENVIRONMENT=${ENVIRONMENT}
+
+RUN if [ ${ENVIRONMENT} != development ]; then \
+    # Download code for into image
+    RUN git clone https://${GH_TOKEN}@github.com/mosssdesign/mosss.git /var/www
+;fi
+
 #
 #--------------------------------------------------------------------------
 # Optional Software's Installation
