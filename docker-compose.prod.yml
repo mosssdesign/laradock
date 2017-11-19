@@ -48,6 +48,8 @@ services:
           - TZ=${WORKSPACE_TIMEZONE}
           - BLACKFIRE_CLIENT_ID=${BLACKFIRE_CLIENT_ID}
           - BLACKFIRE_CLIENT_TOKEN=${BLACKFIRE_CLIENT_TOKEN}
+          - GH_TOKEN=${GH_TOKEN}
+          - VERSION=${VERSION}
         dockerfile: "Dockerfile.production"
 
 ### PHP-FPM Container #######################################
