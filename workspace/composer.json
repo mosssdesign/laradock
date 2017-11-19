@@ -1,5 +1,32 @@
 {
     "require": {
-
+        "php": ">=7.0.0",
+        "barryvdh/laravel-cors": "^0.10.0",
+        "barryvdh/laravel-debugbar": "^3.1",
+        "contentful/laravel": "^2.0",
+        "cybercog/laravel-likeable": "dev-master",
+        "darkaonline/l5-swagger": "^5.5",
+        "exeu/apai-io": "^2.1",
+        "fabpot/goutte": "^3.2",
+        "fideloper/proxy": "~3.3",
+        "filp/whoops": "^2.1",
+        "florianv/laravel-swap": "^1.1",
+        "jasongrimes/paginator": "^1.0",
+        "laravel/framework": "5.5.*",
+        "laravel/horizon": "^1.0",
+        "laravel/socialite": "^3.0",
+        "laravel/tinker": "~1.0",
+        "league/flysystem-aws-s3-v3": "^1.0",
+        "php-http/guzzle6-adapter": "^1.1",
+        "php-http/message": "^1.6",
+        "pusher/pusher-php-server": "^3.0",
+        "sentry/sentry-laravel": "^0.8.0",
+        "silber/bouncer": "v1.0.0-beta.4",
+        "socialiteproviders/pinterest": "^3.0",
+        "spatie/laravel-fractal": "^5.0",
+        "symfony/css-selector": "^3.3",
+        "symfony/dom-crawler": "^3.3",
+        "tymon/jwt-auth": "1.0.0-rc.1",
+        "weblee/mandrill": "dev-master"
     }
-} 
+}
