@@ -30,7 +30,7 @@ RUN rm /var/log/lastlog /var/log/faillog
 # base image (https://github.com/Laradock/workspace).
 #
 
-RUN git clone https://27a229cff5b5af8b77817abc9c940565a7c63220@github.com/mosssdesign/mosss.git /var/www
+RUN git clone https://0815ade119151372c277636f451290249e48852b@github.com/mosssdesign/mosss.git /var/www
 
 #
 #--------------------------------------------------------------------------
