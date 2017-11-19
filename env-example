@@ -7,16 +7,6 @@
 
 APPLICATION=../
 
-### API Version ########################################################################################################
-# Specify the version of application-specific docker images to pull
-
-VERSION=0.0.1
-
-### Github Access Token ################################################################################################
-# Provide the github access token so we can clone the code into the production image for building
-
-GH_TOKEN=
-
 ### PHP Version ########################################################################################################
 # Select a PHP version of the Workspace and PHP-FPM containers (Does not apply to HHVM). Accepted values: 71 - 70 - 56
 
